@@ -2,7 +2,7 @@ version: "3.8"
 services:
   mybook:
     build: .
-    container_name: mybook_django
+    container_name: mybook
     ports:
       - "5000:5000"
     stdin_open: true
